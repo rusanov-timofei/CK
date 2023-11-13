@@ -1,0 +1,623 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 16294 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Timofey/Documents/GameDev/Rusanov
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64368
+Successfully changed project path to: C:/Users/Timofey/Documents/GameDev/Rusanov
+C:/Users/Timofey/Documents/GameDev/Rusanov
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11220] Host "[IP] 192.168.1.65 [Port] 0 [Flags] 2 [Guid] 3110866253 [EditorId] 3110866253 [Version] 1048832 [Id] WindowsEditor(7,UltraPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11220] Host "[IP] 192.168.1.65 [Port] 0 [Flags] 2 [Guid] 3110866253 [EditorId] 3110866253 [Version] 1048832 [Id] WindowsEditor(7,UltraPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 1212.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Timofey/Documents/GameDev/Rusanov/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4017 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.269950 seconds.
+- Loaded All Assemblies, in  6.066 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 2572 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.161 seconds
+Domain Reload Profiling: 9225ms
+	BeginReloadAssembly (4975ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (377ms)
+	LoadAllAssembliesAndSetupDomain (650ms)
+		LoadAssemblies (5004ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (609ms)
+			TypeCache.Refresh (608ms)
+				TypeCache.ScanAssembly (590ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (3162ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3068ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2813ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (150ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Timofey\Documents\GameDev\Rusanov\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Timofey\Documents\GameDev\Rusanov\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.271 seconds
+Refreshing native plugins compatible for Editor in 7.40 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.805 seconds
+Domain Reload Profiling: 4040ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (2899ms)
+		LoadAssemblies (2556ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (453ms)
+			TypeCache.Refresh (429ms)
+				TypeCache.ScanAssembly (408ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (805ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (580ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (368ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 5.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.6 KB). Loaded Objects now: 3533.
+Memory consumption went from 120.6 MB to 120.6 MB.
+Total: 3.645900 ms (FindLiveObjects: 0.244200 ms CreateObjectMapping: 0.236500 ms MarkObjects: 3.046400 ms  DeleteObjects: 0.117800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3457794.559271 seconds.
+  path: Assets/Scenes/M3Scene.unity
+  artifactKey: Guid(154ad435af796204da5298c6b0d6f56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/M3Scene.unity using Guid(154ad435af796204da5298c6b0d6f56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b1665b8d3d3204675416b3bf5ec8c6') in 0.003402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Timofey\Documents\GameDev\Rusanov\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Timofey\Documents\GameDev\Rusanov\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.380 seconds
+Refreshing native plugins compatible for Editor in 5.38 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 50.548 seconds
+Domain Reload Profiling: 51924ms
+	BeginReloadAssembly (536ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (690ms)
+		LoadAssemblies (675ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (375ms)
+			TypeCache.Refresh (366ms)
+				TypeCache.ScanAssembly (352ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (50549ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (506ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (284ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 8.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (0.8 MB). Loaded Objects now: 3539.
+Memory consumption went from 120.7 MB to 119.8 MB.
+Total: 3.925200 ms (FindLiveObjects: 0.273200 ms CreateObjectMapping: 0.353600 ms MarkObjects: 2.911500 ms  DeleteObjects: 0.385900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 887.795372 seconds.
+  path: Assets/Polytope Studio
+  artifactKey: Guid(317746a3c7ac1ed4e9d743708a0d0fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio using Guid(317746a3c7ac1ed4e9d743708a0d0fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fecd3c213b61b7c6f3d5d12efddd4a') in 0.003192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.894767 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters
+  artifactKey: Guid(7827ac9e8a6a9b24a84c9666123469f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters using Guid(7827ac9e8a6a9b24a84c9666123469f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08f4948adcf1ecbf4a2765df6840376') in 0.001056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.050068 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments
+  artifactKey: Guid(be41ee6ac43e67344981ef736f6e5ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments using Guid(be41ee6ac43e67344981ef736f6e5ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a257dfbcc623682f86283da0beac51e') in 0.000523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.530937 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs
+  artifactKey: Guid(3ba94cc50bb068c4bb427a52fdcb0038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs using Guid(3ba94cc50bb068c4bb427a52fdcb0038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1775ae585e01ee37b73eefbcf679ff2f') in 0.000667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.051132 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/PT_Medieval_Rock_4.prefab
+  artifactKey: Guid(6c482e625e2add940a53e04912d07ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/PT_Medieval_Rock_4.prefab using Guid(6c482e625e2add940a53e04912d07ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6310abc8455523a7d717803578a2b7ee') in 0.678339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/PT_Medieval_Rock_6.prefab
+  artifactKey: Guid(c1325fa2bd1c15245a71ba8ebc3659f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/PT_Medieval_Rock_6.prefab using Guid(c1325fa2bd1c15245a71ba8ebc3659f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c60e5140b72b1cc82fd30132dd960f6') in 0.017728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/PT_Medieval_Tree_1.prefab
+  artifactKey: Guid(543ba2233306d00479ef5713d436c12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/PT_Medieval_Tree_1.prefab using Guid(543ba2233306d00479ef5713d436c12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6431024b15149786b684ef2727f4a4d') in 0.021378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 29.182350 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.725391 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(4bc038fb33418d74cbf6dc5266408a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(4bc038fb33418d74cbf6dc5266408a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b824a9cbd86743883fc6e21fd1770f8') in 0.000742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.376011 seconds.
+  path: Assets/Materials/Ground.mat
+  artifactKey: Guid(2688266cbbe527840b6b174db547e745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ground.mat using Guid(2688266cbbe527840b6b174db547e745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe264b703bdda1abfde99c688735ce45') in 0.103830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 57.328820 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Props
+  artifactKey: Guid(a6988b0ccf53e864ab49d22e0a3ef1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Props using Guid(a6988b0ccf53e864ab49d22e0a3ef1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f672ed3e1663db3e0646a31dc7dab6b') in 0.000666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.714089 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Props/Prefabs
+  artifactKey: Guid(aa23f77f34f5dd04980fda9c69ed98fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Props/Prefabs using Guid(aa23f77f34f5dd04980fda9c69ed98fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ca2d984307bb75df16f30df258e8f1') in 0.001000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.048388 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Props/Prefabs/PT_Medieval_Hayfork_01.prefab
+  artifactKey: Guid(b4d0f82eedb95f543ab0961de54f43fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Props/Prefabs/PT_Medieval_Hayfork_01.prefab using Guid(b4d0f82eedb95f543ab0961de54f43fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e777fbb6539c4a4b502ef647dc6b4ff8') in 0.018129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 225.426787 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs
+  artifactKey: Guid(7861de420002c8a4fbe5df2a338397db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs using Guid(7861de420002c8a4fbe5df2a338397db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524ed0926ad98501753718f3293818ea') in 0.001087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.202853 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC
+  artifactKey: Guid(77b08afb7843c394e86c073cce4beb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC using Guid(77b08afb7843c394e86c073cce4beb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bd1e42151e2bf23d8015c893ffee00') in 0.000513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.145342 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens
+  artifactKey: Guid(ef171c9e80649f54cbcd1f3faa867b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens using Guid(ef171c9e80649f54cbcd1f3faa867b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609ee4355265385c827bb9de33297646') in 0.000891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.054817 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/PT_Medieval_Boy_Modular_Free_Pack.prefab
+  artifactKey: Guid(0da600d002dc6404693c3b74e0265a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/PT_Medieval_Boy_Modular_Free_Pack.prefab using Guid(0da600d002dc6404693c3b74e0265a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1794be9d83d2aa4dbaa85781f01215ab') in 0.832481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/PT_Medieval_Male_Modular_Free_Pack 1.prefab
+  artifactKey: Guid(5b1f79dda76cb5c498c34f02ea3e78e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/PT_Medieval_Male_Modular_Free_Pack 1.prefab using Guid(5b1f79dda76cb5c498c34f02ea3e78e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc2182b33126e5293e863d026daa510') in 0.037082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/PT_Medieval_Male_Modular_Free_Pack.prefab
+  artifactKey: Guid(d3f87f114f86a3b4f88996e8d2e99fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/PT_Medieval_Male_Modular_Free_Pack.prefab using Guid(d3f87f114f86a3b4f88996e8d2e99fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cfebcebd54a82833e4d702c7792024') in 0.040068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 21.303722 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons
+  artifactKey: Guid(5a9fa4b6d301dc14aa6250493dff5575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons using Guid(5a9fa4b6d301dc14aa6250493dff5575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9dd3d2588b0c76247bb9b0e9786065') in 0.000857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.791322 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs
+  artifactKey: Guid(de6e676950f3759498883efd4debf43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs using Guid(de6e676950f3759498883efd4debf43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33eb3bd18abb7ebdaa4b37fcff0d68fd') in 0.000631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.046816 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Club_01_a.prefab
+  artifactKey: Guid(d899e8694e33de045913544914a22216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Club_01_a.prefab using Guid(d899e8694e33de045913544914a22216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0350f83b43f2ba68968456dcf61a9d41') in 0.026540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Dagger_01_a.prefab
+  artifactKey: Guid(cdb7a497e7ed62243984bf81f2c19ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Dagger_01_a.prefab using Guid(cdb7a497e7ed62243984bf81f2c19ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e050c80b589f92fa0cbb3b6dfda286') in 0.020733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Waraxe_01_a.prefab
+  artifactKey: Guid(59a51e492123cc34985ba1a0d212451a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Waraxe_01_a.prefab using Guid(59a51e492123cc34985ba1a0d212451a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208368d50208986b4bea7c79dbb532a6') in 0.016633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 45.485033 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets
+  artifactKey: Guid(3f02a3be934dd204799ade6060ee062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets using Guid(3f02a3be934dd204799ade6060ee062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ed80fc6a426cc4d05c6bd5636223a2') in 0.001177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.075355 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Medieval_Boy_Naked.prefab
+  artifactKey: Guid(d8355b2e443d1a548b7e7fe05d40c9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Medieval_Boy_Naked.prefab using Guid(d8355b2e443d1a548b7e7fe05d40c9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482b8c2f0c0ed5f9d06bf20b9f7560ae') in 0.027184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 128
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Medieval_Female_Peasant_01_a.prefab
+  artifactKey: Guid(25b8deb3033e5314a94c9c75eed29dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Medieval_Female_Peasant_01_a.prefab using Guid(25b8deb3033e5314a94c9c75eed29dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624d074e783dcd101bfb22a131f79493') in 0.034636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 186
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Medieval_Female_Peasant_01_b.prefab
+  artifactKey: Guid(bc29bbb29749f824285ece7b3ecb5362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Medieval_Female_Peasant_01_b.prefab using Guid(bc29bbb29749f824285ece7b3ecb5362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed6b3f618898dada069dd703a61b1da') in 0.028869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 186
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Medieval_Female_Naked.prefab
+  artifactKey: Guid(e0b6d34d39c75f74e88518596625a130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Medieval_Female_Naked.prefab using Guid(e0b6d34d39c75f74e88518596625a130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73441f4494f6287253cb4f93f8f9502c') in 0.028362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 186
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Medieval_Male_Naked.prefab
+  artifactKey: Guid(eb04246f9f798aa4f8600aebdbc8454e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Medieval_Male_Naked.prefab using Guid(eb04246f9f798aa4f8600aebdbc8454e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5011870ff8c05823ad876218ddb1dd51') in 0.024041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 164
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Medieval_Male_Peasant_01.prefab
+  artifactKey: Guid(c2af11c01d1176e4d98619176b00d199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Medieval_Male_Peasant_01.prefab using Guid(c2af11c01d1176e4d98619176b00d199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f64e02adffdca12994b5cfdeb6a3d92') in 0.026887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 164
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Medieval_Boy_Peasant_01.prefab
+  artifactKey: Guid(2b56fc50dbd0b6d42953bc45b0f0622d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Medieval_Boy_Peasant_01.prefab using Guid(2b56fc50dbd0b6d42953bc45b0f0622d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ea4a34f3937f55ea2c5d6b3e1a72ec') in 0.022576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 128
+========================================================================
+Received Import Request.
+  Time since last request: 199.529927 seconds.
+  path: Assets/Import
+  artifactKey: Guid(4e7a15d9b63cc0742a939e6f615c9ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import using Guid(4e7a15d9b63cc0742a939e6f615c9ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def3125aaffed4f68d9f48ec0ff67e4a') in 0.001626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Timofey\Documents\GameDev\Rusanov\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Timofey\Documents\GameDev\Rusanov\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.982 seconds
+Refreshing native plugins compatible for Editor in 5.50 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.166 seconds
+Domain Reload Profiling: 2143ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (666ms)
+		LoadAssemblies (422ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (355ms)
+			TypeCache.Refresh (347ms)
+				TypeCache.ScanAssembly (334ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1166ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (471ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 7.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (407.9 KB). Loaded Objects now: 3584.
+Memory consumption went from 122.5 MB to 122.1 MB.
+Total: 3.610700 ms (FindLiveObjects: 0.335300 ms CreateObjectMapping: 0.470700 ms MarkObjects: 2.554800 ms  DeleteObjects: 0.248800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29.794805 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(369907f657fcf8a45ac38c5d6cce9b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(369907f657fcf8a45ac38c5d6cce9b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3caf8abfe14e7f220ae886ac65eebf') in 0.003109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 97.469682 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(20ca4804f38b8b64d97811480ee84c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(20ca4804f38b8b64d97811480ee84c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bf420adf245a8d13480abd1162bf3b') in 0.000565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.379463 seconds.
+  path: Assets/Scenes/12.unity
+  artifactKey: Guid(154ad435af796204da5298c6b0d6f56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/12.unity using Guid(154ad435af796204da5298c6b0d6f56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1463c08d4f167045e21c82314fe20dc') in 0.000625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.588377 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9e09ef4014ea17ea1e50607f6aa30f') in 0.000668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.027693 seconds.
+  path: Assets/Scenes/M3Scene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/M3Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b8c9a374990639f7e5212451479155') in 0.001185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
